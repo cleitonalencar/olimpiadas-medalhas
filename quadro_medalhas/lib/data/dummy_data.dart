@@ -1,0 +1,40 @@
+import 'package:quadro_medalhas/models/country.dart';
+
+final List<Country> dummyCountries = [
+  Country(
+    id: 'CHN',
+    name: 'China',
+    continent: 'ASI',
+    flagUrl: 'https://codante.s3.amazonaws.com/codante-apis/olympic-games/flags/CHN.png',
+    goldMedals: 22,
+    silverMedals: 19,
+    bronzeMedals: 14,
+    totalMedals: 55,
+    rank: 1,
+    rankTotalMedals: 2,
+  ),
+  Country(
+    id: 'USA',
+    name: 'EUA',
+    continent: 'AME',
+    flagUrl: 'https://codante.s3.amazonaws.com/codante-apis/olympic-games/flags/USA.png',
+    goldMedals: 21,
+    silverMedals: 30,
+    bronzeMedals: 28,
+    totalMedals: 79,
+    rank: 2,
+    rankTotalMedals: 1,
+  ),
+  Country(
+    id: 'JPN',
+    name: 'Japão',
+    continent: 'ASI',
+    flagUrl: 'https://codante.s3.amazonaws.com/codante-apis/olympic-games/flags/JPN.png',
+    goldMedals: 15,
+    silverMedals: 10,
+    bronzeMedals: 12,
+    totalMedals: 37,
+    rank: 3,
+    rankTotalMedals: 3,
+  ),
+];
