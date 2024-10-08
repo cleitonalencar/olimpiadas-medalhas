@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             ),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Quadro de Medalhas - Olimpíadas de Paris 2024 (Índice C.A.)'),
+      home: const MyHomePage(title: 'Quadro de Medalhas **Olimpíadas de Paris 2024** (Índice C.A.)'),
     );
   }
 }
